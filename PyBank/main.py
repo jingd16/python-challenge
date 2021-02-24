@@ -2,8 +2,8 @@ import os
 import csv
 
 #Define path to read + write CSV
-csvpath = os.path.join("..", "Resource", "budget_data.csv")
-output_file = os.path.join("..", "analysis", "PyBank.txt")
+csvpath = os.path.join("Resources", "budget_data.csv")
+output_file = os.path.join("analysis", "PyBank.txt")
 
 Total_Month_Counter = 0
 Total_Net_Profit = 0

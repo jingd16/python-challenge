@@ -2,8 +2,8 @@ import os
 import csv
 
 #Set path to read and write CSV file
-csvpath = os.path.join("..", "Resource", "election_data.csv")
-output_file = os.path.join("..", "analysis", "PyPoll.txt")
+csvpath = os.path.join("Resources", "election_data.csv")
+output_file = os.path.join("analysis", "PyPoll.txt")
 
 Total_vote = 0
 Newlist =[]
